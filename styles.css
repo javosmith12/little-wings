@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#title {
+    font-size: 40px;
+}
+
+.nav-container {
+    display: flex;
+    background: rgb(180, 151, 53);
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.bod-container {
+    display: flex;
+}
+
+.bod-list {
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
