@@ -8,9 +8,14 @@
     font-size: 40px;
 }
 
+#list-title {
+    font-size: 20px;
+    align-self: center;
+}
+
 .nav-container {
     display: flex;
-    background: rgb(180, 151, 53);
+    background: rgb(235, 90, 90);
     justify-content: space-around;
     align-items: center;
     height: 100px;
@@ -24,13 +29,43 @@
 
 .bod-container {
     display: flex;
+    height: 600px;
+    background: rgb(135, 60, 50);
 }
 
-.bod-list {
+.sidebar {
+    background: rgb(196, 196, 196);
+    padding: 30px;
+}
+
+.sidebar-list {
     display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-container{
+    background: rgb(35, 90, 90);
+    min-height: 80px;
+}
+
+.image-list {
+    display: flex;
+    list-style: none;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex: 1;
+}
+
+.image-item img{
+    width: 300px;
 }
 
 a {
     text-decoration: none;
 }
+
 
